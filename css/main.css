@@ -1,0 +1,430 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* Navigation */
+
+.bg-inverse {
+  background-color: rgba(13, 52, 48, 0.98)!important;
+}
+
+.navbar {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-size: 0.6rem;
+  text-align: left;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-size: 0.8rem;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.navbar-nav {
+  margin-left: 30px;
+}
+
+.nav-item {
+  margin-right: 10px;  
+}
+
+  @media (max-width: 576px) {
+    .nav-item {
+    margin-top: 10px;
+    }
+  }
+
+.navbar-inverse .navbar-brand {
+  color: #ffffff;  
+}
+
+.navHr {
+  max-width: 110px;
+  border: 1px solid #0ab4ba;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 0;
+}
+
+
+/* My Intro section */
+
+.jumbotron {
+  background: url('https://scontent-icn1-1.xx.fbcdn.net/v/t31.0-8/1146183_10201570334957755_2121542857_o.jpg?oh=8ca520c13da4e64e2eded4b994168c84&oe=5999094A') no-repeat center;
+  background-size: cover;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: 0;
+  max-height: 1000px;
+}
+
+.jumbotron .container {
+  margin-top: 26rem; 
+  padding-left: 0;
+  padding-right: 0;
+  
+}
+
+.background {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem 1rem 0;
+  margin: 0 auto;
+}
+
+  @media (min-width: 1200px) {
+    .background {
+    max-width: 85%;
+    }
+  }
+
+img {
+  max-width: 100%;
+}
+
+/* To have padding under profile photo */
+
+  @media (max-width: 576px) {
+    .background img {
+      padding-bottom: 1rem;
+    }
+  }
+
+  @media (min-width: 1010px) {
+    .background img {
+      padding-bottom: 1rem;
+    }
+  }
+
+.background p {
+  font-weight: 100;
+  color: #c7c7c7;
+}
+
+.background p.lead {
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+}
+
+
+  
+/* Main Content */
+
+.helper {
+  padding-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+  @media (max-width: 576px) {
+    .helper {
+    padding-top: 9rem;
+    }
+  }
+
+.wrapper {
+  background: #e6e6e6;
+/*
+  background-image: linear-gradient(
+      45deg, 
+      #484848, #b7b7b7
+    );
+*/
+}
+
+
+/* Section Titles */
+
+h2 {
+  font-size: 3rem;
+  letter-spacing: 0.8rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+.wrapper h2 {
+  color: #ededed;
+}
+
+
+/* Projects */
+
+#projects h2 {
+  color: #6f6f6f;
+  font-weight: 200;
+}
+
+.section {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.card-block {
+  background: #f2f2f2;
+}
+.card-title {
+  text-transform: uppercase;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+}
+  
+.card-footer {
+  text-align: center;
+  background: rgb(0, 0, 0);
+}
+
+
+/* Links */
+
+
+#links  {
+  height: 100%;
+}
+
+  @media (max-width: 576px) {
+    #links  {
+    height: 850px;
+    }
+  }
+
+.wrapper.connect {
+  background: rgb(2, 130, 134);
+  background-image: linear-gradient(
+      45deg, 
+      #185c3d, #194d6d
+    );
+}
+
+footer {
+  margin-left: 30px;
+  margin-top: 2rem;
+/*  display: inline-flex;*/
+}
+
+footer .socials {
+  width: 150px;
+  color: #51a79f;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  font-weight: 100;
+  letter-spacing: 0.1rem;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 40px 20px;
+  border: 1px solid #228178;
+}
+
+.socials:hover {
+  border: 1px solid white;
+}
+
+.bottomHr {
+  max-width: 20px;
+  border: 1px solid #228178;
+  margin-top: 2rem;
+  margin-left: 30px;
+}
+
+.copyright {
+  color: #b5b5b5;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-size: 0.6rem;
+  margin-top: 1.5rem;
+  margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
